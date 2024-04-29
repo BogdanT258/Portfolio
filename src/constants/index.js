@@ -9,11 +9,11 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Mar 2022 - May 2022",
+    role: "React.js Intern",
+    company: "Cloud9 Web Services",
+    description: `Developed projects using React.js, focusing on component-based architecture. Engaged in diverse tasks assigned by my mentor to broaden skills and contribute to project success.`,
+    technologies: ["Javascript", "React.js", "Json-API"],
   },
   {
     year: "2022 - 2023",
@@ -42,6 +42,7 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
+    link:'https://github.com/BogdanT258/elios_lite',
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
@@ -49,6 +50,7 @@ export const PROJECTS = [
   {
     title: "Task Management App",
     image: project2,
+    link:'https://github.com/BogdanT258/elios_lite',
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
@@ -56,6 +58,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    link:'https://github.com/BogdanT258/elios_lite',
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
@@ -63,6 +66,7 @@ export const PROJECTS = [
   {
     title: "Blogging Platform",
     image: project4,
+    link:'https://github.com/BogdanT258/elios_lite',
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
