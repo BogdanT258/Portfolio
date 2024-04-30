@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm an aspiring full stack developer diving deep into the world of web development. With a solid foundation in React and Tailwind CSS, I'm now expanding my skills to encompass the full stack, delving into technologies like Node.js and MongoDB. Additionally, I'm mastering Redux Toolkit to efficiently manage state in my applications. Proficient in Git version control, I'm committed to continuous learning and improvement. My aim is to combine my expertise in front-end development with newfound back-end skills to create dynamic and seamless web experiences that elevate user engagement and satisfaction.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a dynamic and driven web developer, currently focused on mastering the intricacies of the full stack. While my journey began with a strong emphasis on front-end development, where I excel in React and Tailwind CSS, I'm now venturing into the realms of Node.js and MongoDB, expanding my skill set to encompass the entire stack. Alongside this, I'm diving deep into Redux Toolkit for efficient state management and honing my expertise in Git version control. In addition to my current pursuits, I'm deeply passionate about the field of web security and aspire to expand my expertise in this area. With the ever-growing importance of cybersecurity in today's digital landscape, I'm committed to making a meaningful impact in safeguarding digital assets and protecting user privacy. I thrive in collaborative environments, where I relish the opportunity to tackle complex challenges and deliver innovative solutions. Beyond coding, I'm an avid explorer of the outdoors and a passionate volleyball player. My commitment to lifelong learning and innovation drives me to continuously seek out new opportunities for growth and development.`;
 
 export const EXPERIENCES = [
   {
@@ -15,53 +15,24 @@ export const EXPERIENCES = [
     description: `Developed projects using React.js, focusing on component-based architecture. Engaged in diverse tasks assigned by my mentor to broaden skills and contribute to project success.`,
     technologies: ["Javascript", "React.js", "Json-API"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Bank Promotion",
     image: project1,
-    link:'https://github.com/BogdanT258/elios_lite',
+    link:'https://github.com/BogdanT258/ecommerce_pop/tree/main/bank_modern_app',
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    link:'https://github.com/BogdanT258/elios_lite',
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A website for crypto currency promotion and deals that specified bank gives.",
+    technologies: ["React", "Tailwind"],
   },
   {
     title: "Portfolio Website",
     image: project3,
-    link:'https://github.com/BogdanT258/elios_lite',
+    link:'https://github.com/BogdanT258/Portfolio',
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["Tailwind", "React", "Framer Motion"],
   },
   {
     title: "Blogging Platform",
@@ -69,12 +40,12 @@ export const PROJECTS = [
     link:'https://github.com/BogdanT258/elios_lite',
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["React", "Tailwind", "Firebase", "Redux"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Novi Sad, Serbia",
+  phoneNo: "+381 64 13 88 241 ",
+  email: "bogdantrivic1@gmail.com",
 };
