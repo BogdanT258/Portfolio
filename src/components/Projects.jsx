@@ -4,16 +4,21 @@ import { motion } from "framer-motion";
 import Toastify from "toastify-js";
 import "toastify-js/src/toastify.css";
 
-function handleClick(e) {
+function handleClick(href, e) {
   e.preventDefault();
-  const href = e.currentTarget.getAttribute("href");
 
-  if (href && href !== "") {
+  if (href && href !== '') {
     window.location.href = href;
   } else {
-    alert("This project doesn't have a host link!");
-  }
+    Toastify({
+      text: "This project doesn't have a host link!",
+      duration: 3000,
+      gravity: "bottom", 
+      position: "center",
+    }).showToast();
+  };
 }
+
 
 function Projects() {
   return (
@@ -49,15 +54,9 @@ function Projects() {
               transition={{ duration: 0.8 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <a
-                key={index}
-                href={project.host}
-                onClick={() => handleClick(project.host)}
-              >
-                <h6 className="mb-2 font-semibold underline-animated">
-                  {project.title}
-                </h6>
-              </a>
+              <a key={index} href={project.host} onClick={(e) => handleClick(project.host, e)}>
+    <h6 className="mb-2 font-semibold underline-animated">{project.title}</h6>
+  </a>
               <br />
               <a
                 href={project.link}
