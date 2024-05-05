@@ -9,7 +9,7 @@ function Navbar() {
         <img src={logo} alt="logo" width={60} height={36}/>
       </div>
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <a href=""><FaLinkedin /></a>
+        <a href="https://www.linkedin.com/in/bogdan-trivic-ba38242ba/"><FaLinkedin /></a>
         <a href="https://github.com/BogdanT258"><FaGithub /></a>
         <a href="https://www.instagram.com/trivic.99/"> <FaInstagram /></a>
       </div>

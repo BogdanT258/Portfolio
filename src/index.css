@@ -13,13 +13,12 @@ a {
 }
 
 @layer components {
-  
-  .web {
+  .underline-animated{
     background:
       linear-gradient(
         to right,
         rgba(100, 200, 200, 1),
-        rgba(100, 200, 200, 1)
+        rgb(168, 31, 232)
       ),
       linear-gradient(
         to right,
@@ -34,7 +33,7 @@ a {
     transition: background-size 400ms;
   }
   
-  .web:hover {
+  .underline-animated:hover {
     background-size: 0 3px, 100% 3px;
   }
 }

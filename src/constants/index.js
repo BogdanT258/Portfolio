@@ -37,7 +37,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     image: project3,
     link:'https://github.com/BogdanT258/Portfolio',
-    host:'',
+    host:'https://bogdantrivicportfolio.netlify.app/',
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["Tailwind", "React", "Framer Motion"],
